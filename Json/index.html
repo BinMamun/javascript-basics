@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Json</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+      <h1>Make a table based on the value of the dropdown</h1>
+      <hr />
+    </div>
+    <select id="mySelect" onchange="change_mySelete(this.value)">
+      <option value="">Choose an option</option>
+      <option value="products">Products</option>
+      <option value="customers">Customers</option>
+      <option value="suppliers">Suppliers</option>
+    </select>
+
+    <div id="valueTable"></div>
+
+   <script src="json.js"></script>
+  </body>
+</html>
